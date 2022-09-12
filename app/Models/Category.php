@@ -136,10 +136,10 @@ class Category extends Model
                     return 'v2/content/one/images/one-logo.png';
                 }
             } else {
-                return 'v2/content/one/one-logo.png';
+                return 'v2/content/one/images/one-logo.png';
             }
         } else {
-            return 'v2/content/one/one-logo.png';
+            return 'v2/content/one/images/one-logo.png';
         }
     }
 

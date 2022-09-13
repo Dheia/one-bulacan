@@ -92,7 +92,7 @@ Route::get('/api/barangays', function () {
     
     // Store Barangays
     if( env('LOC_INSERT', false ) ) {
-        if( count($locations) <= 0 && count(Baranggay::all()) <= 0 ) {
+        if( count($locations) > 0 && count(Baranggay::all()) <= 0 ) {
             $insertBarangays = Baranggay::insert($data);
         }
     }

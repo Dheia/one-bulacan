@@ -14,12 +14,16 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $code = substr(md5(uniqid(mt_rand(), true)) , 0, 7);
+
         DB::table('users')->insert([
-            'name' => "Developer",
+            'code'  => $code,
+            'name'  => "Developer",
             'email' => 'dev@tigernethost.com',
             'username' => 'developer',
-            'password' => bcrypt('MarkMark$ecurit1')
+            'password' => bcrypt('MarkMark$ecurit1'),
+            'is_admin' => 1,
+            'is_first_time_login' => 0,
         ]);
     }
 }

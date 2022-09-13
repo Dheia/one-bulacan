@@ -404,26 +404,28 @@
     </script>
     <script>
         
+        @if( count($categories)>0 )
         window.addEventListener( "load", function () {
-                var splide = new Splide( '#secondary-slider', {
-                    type       : 'loop',
-                    perPage    : 3,
-                    fixedWidth : 250,
-                    height     : 500,
-                    gap        : 185,
-                    rewind     : true,
-                    cover      : true,
-                    pagination : false,
-                    autoplay: true,
-                    slideFocus : true
-                } );
-
-                splide.on( 'mounted', function () {
-                    $('#secondary-slider').css("visibility", "visible");
-                } );
-                
-                splide.mount();
+            var splide = new Splide( '#secondary-slider', {
+                type       : 'loop',
+                perPage    : 3,
+                fixedWidth : 250,
+                height     : 500,
+                gap        : 185,
+                rewind     : true,
+                cover      : true,
+                pagination : false,
+                autoplay: true,
+                slideFocus : true
             } );
+
+            splide.on( 'mounted', function () {
+                $('#secondary-slider').css("visibility", "visible");
+            } );
+            
+            splide.mount();
+        } );
+        @endif
 
             window.addEventListener( "load", function () {
                 var splide1 = new Splide( '#secondary-slider-2', {

@@ -50,8 +50,8 @@ class HomeController extends Controller
                                             ->get();
 
         // $featured_businesses = collect($featured_businesses)->shuffle();
-        $categories                 =   Category::whereRelation('businesses', 'active', '1')
-                                            ->where('parent_id', '=', null)->orderBy('name', 'ASC')
+        $categories                 =   Category::where('parent_id', '=', null)->orderBy('name', 'ASC')
+                                            // ->whereRelation('businesses', 'active', '1')
                                             ->get();
         $subcategories              =   Category::getTree();
 

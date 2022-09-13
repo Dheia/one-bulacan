@@ -133,13 +133,13 @@ class Category extends Model
                 if(file_exists($image)) {
                     return $image;
                 } else {
-                    return 'v2/content/one/images/one-logo.png1';
+                    return 'v2/content/one/images/one-logo.png';
                 }
             } else {
-                return 'v2/content/one/images/one-logo.png2';
+                return 'v2/content/one/images/one-logo.png';
             }
         } else {
-            return 'v2/content/one/images/one-logo.png3';
+            return 'v2/content/one/images/one-logo.png';
         }
     }
 

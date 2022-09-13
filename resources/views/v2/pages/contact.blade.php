@@ -72,61 +72,61 @@
                                         </div>  
                                         <!-- END OF FULLSCREEN BANNER -->
                                 </div>
-                                    <!-- P -->
+                                <!-- ICON -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-2" data-x="center" data-hoffset="-210" data-y="center" data-voffset="250" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1310,"speed":1610,"frame":"0","from":"x:20px;y:20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;">
-                                    <img src="{{ asset('v2/content/one/images/p1-v2.png') }}" data-ww="60px" data-hh="60px" width="126" height="139" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/here_icon.png') }}" data-ww="60px" data-hh="60px" width="126" height="139" data-no-retina>
                                 </div>
 
-                                <!-- A -->
+                                <!-- B -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-3" data-x="center" data-hoffset="-150" data-y="center" data-voffset="253" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1350,"speed":1830,"frame":"0","from":"y:20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;">
-                                    <img src="{{ asset('v2/content/one/images/a1-v2.png') }}" data-ww="60px" data-hh="60px" width="124" height="135" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/b1-v2.png') }}" data-ww="60px" data-hh="60px" width="124" height="135" data-no-retina>
                                 </div>
 
-                                <!-- M -->
+                                <!-- U -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-4" data-x="center" data-hoffset="-80" data-y="center" data-voffset="256" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1430,"speed":2190,"frame":"0","from":"x:-20px;y:20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;">
-                                    <img src="{{ asset('v2/content/one/images/m-v2.png') }}" data-ww="60px" data-hh="60px" width="155" height="182" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/u1-v2.png') }}" data-ww="60px" data-hh="60px" width="155" height="182" data-no-retina>
                                 </div>
 
-                                <!-- P -->
+                                <!-- L -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-4" data-x="center" data-hoffset="-10" data-y="center" data-voffset="259" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1430,"speed":2190,"frame":"0","from":"x:-20px;y:20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;">
-                                    <img src="{{ asset('v2/content/one/images/p2-v2.png') }}" data-ww="60px" data-hh="60px" width="155" height="182" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/l1-v2.png') }}" data-ww="60px" data-hh="60px" width="155" height="182" data-no-retina>
                                 </div>
                             
                                 <!-- A -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-5" data-x="center" data-hoffset="50" data-y="center" data-voffset="259" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1560,"speed":2210,"frame":"0","from":"x:20px;y:-20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;">
-                                    <img src="{{ asset('v2/content/one/images/a2-v2.png') }}" data-ww="60px" data-hh="60px" width="170" height="170" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/a1-v2.png') }}" data-ww="60px" data-hh="60px" width="170" height="170" data-no-retina>
                                 </div>
 
-                                <!-- N -->
+                                <!-- C -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-5" data-x="center" data-hoffset="120" data-y="center" data-voffset="256" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1560,"speed":2210,"frame":"0","from":"x:20px;y:-20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;">
-                                    <img src="{{ asset('v2/content/one/images/n-v2.png') }}" data-ww="60px" data-hh="60px" width="170" height="170" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/c1-v2.png') }}" data-ww="60px" data-hh="60px" width="170" height="170" data-no-retina>
                                 </div>
 
 
-                                <!-- G -->
+                                <!-- A -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-7" data-x="center" data-hoffset="190" data-y="center" data-voffset="253" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1820,"speed":2280,"frame":"0","from":"x:-20px;y:-20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;">
-                                    <img src="{{ asset('v2/content/one/images/g-v2.png') }}" data-ww="60px" data-hh="60px" width="129" height="137" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/a2-v2.png') }}" data-ww="60px" data-hh="60px" width="129" height="137" data-no-retina>
                                 </div>
 
-                                <!-- A -->
+                                <!-- N -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-2-layer-7" data-x="center" data-hoffset="255" data-y="center" data-voffset="250" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image"
                                     data-responsive_offset="on" data-frames='[{"delay":1820,"speed":2280,"frame":"0","from":"x:-20px;y:-20px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;">
-                                    <img src="{{ asset('v2/content/one/images/a3-v2.png') }}" data-ww="60px" data-hh="60px" width="129" height="137" data-no-retina>
+                                    <img src="{{ asset('v2/content/one/images/letters/n1-v2.png') }}" data-ww="60px" data-hh="60px" width="129" height="137" data-no-retina>
                                 </div>
                                 <!-- MAP -->
                                 <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-2-layer-1" data-x="center" data-hoffset="" data-y="center" data-voffset="60" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on"

@@ -130,16 +130,16 @@ class Category extends Model
         if(isset($this->attributes['image'])) {
             if($this->attributes['image'] !== null){
                 $image = $this->attributes['image'];
-                if(file_exists('storage/'.$image)) {
-                    return 'storage/'.$image;
+                if(file_exists($image)) {
+                    return $image;
                 } else {
-                    return 'v2/content/one/images/one-logo.png';
+                    return 'v2/content/one/images/one-logo.png1';
                 }
             } else {
-                return 'v2/content/one/images/one-logo.png';
+                return 'v2/content/one/images/one-logo.png2';
             }
         } else {
-            return 'v2/content/one/images/one-logo.png';
+            return 'v2/content/one/images/one-logo.png3';
         }
     }
 

@@ -238,7 +238,7 @@
                                                         <div class="column one">
                                                             <!-- (1/3) Column -->
                                                             <div class="column one-third">
-                                                                <input class="v2-input" value="Pampanga" placeholder="Province" type="text" disabled name="province" id="province" size="40" aria-required="true" aria-invalid="false" />
+                                                                <input class="v2-input" value="{{ env('LOCATION') }}" placeholder="Province" type="text" disabled name="province" id="province" size="40" aria-required="true" aria-invalid="false" />
                                                                 @if($errors->has('province'))
                                                                     <div class="error">{{ $errors->first('province') }}</div>
                                                                 @endif

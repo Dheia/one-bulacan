@@ -38,7 +38,8 @@
 
     function initMap()
     {
-      const myLatlng = { lat: latitude ? latitude : 15.04426482138687, lng: longitude ? longitude : 120.68958740315281 };
+      console.log({{Config('settings.latitude')}}, {{Config('settings.longitude')}});
+      const myLatlng = { lat: latitude ? latitude : {{Config('settings.latitude')}}, lng: longitude ? longitude : {{Config('settings.longitude')}} };
       const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 9,
         center: myLatlng,
